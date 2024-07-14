@@ -50,6 +50,11 @@
     }
     
 }
+@media (max-width:870px) {
+    .grid-container {
+        margin-bottom: 40px;
+    }
+}
 @media (max-width:774px) {
     .wrap-card {
         margin: 10px 10px;
