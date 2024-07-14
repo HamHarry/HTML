@@ -27,20 +27,24 @@ header {
     color: black;
 }
 /* =====================container============================== */
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .grid-container {
-    height: 100vh;
     display: grid;
-    grid-template-columns: 10fr 1fr;
+    grid-template-columns: 4fr 1fr;
     gap: 10px;
     background-color: #57bdf6;
-    width: 90vw;
+    width: 100%;
     margin-top: 40px;
 }
 /* ======================grid-menu=============================== */
 .grid-menu {
     display: grid;
-    grid-template-rows: 60px 3fr;
-    height: 100vh;
+    height: 100%;
     background-color: white;
 }
 /* ===================search========================= */
@@ -75,9 +79,7 @@ header {
 .grid-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-rows: 1fr;
-    height: 25vh;
+    height: 25px;
 }
 .wrap-card {
     display: flex;
@@ -104,7 +106,6 @@ header {
 .text {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     gap: 50px;
 }
 .text ul {
@@ -143,7 +144,6 @@ header {
 .list {
     position: fixed;
     display: grid;
-    grid-template-rows: 1fr 1fr;
     margin: 10px;
 }
 .grid-list {
@@ -195,14 +195,13 @@ header {
 }
 /* =====================grid-pay========================== */
 .grid-pay {
-    position: fixed;
-    bottom: 50px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
     background-color: beige;
     border: 2px solid #57bdf6;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
-    height: 155;
-    width: 310px;
 }
 .grid-pay:hover {
     border: 3px solid yellow;
@@ -230,8 +229,11 @@ header {
 }
 /* =====================footer========================== */
 footer {
+    position:absolute ;
+    bottom: 0;
+    width: 100%;
     font-weight: 600;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     background-color: #57bdf6;
 }
