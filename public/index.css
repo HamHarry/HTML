@@ -40,6 +40,7 @@ body {
     background-color: #57bdf6;
     width: 100%;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 /* ======================grid-menu=============================== */
 .grid-menu {
@@ -79,7 +80,6 @@ body {
 .grid-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 25px;
 }
 .wrap-card {
     display: flex;
@@ -237,14 +237,3 @@ footer {
     padding: 10px 0;
     background-color: #57bdf6;
 }
-
-/* container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-.test {
-    background-color: black;
-    height: 500px;
-    width: 100%;
-} */

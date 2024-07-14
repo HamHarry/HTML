@@ -1,5 +1,6 @@
 @media (max-width: 1050px) {
     .grid-container {
+        display: flex;
         background-color: white;
         width: 100%;
         margin-bottom: 10px;
@@ -10,7 +11,8 @@
     .grid-menu {
         display: flex;
         flex-direction: column;
-        column-span: all;
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
     .grid-card {
@@ -71,5 +73,9 @@
     .search-bar {
         width: 300px;
     }
-    
+}
+@media (max-width:673px) {
+    .grid-container {
+        margin-bottom: 50px;
+    }
 }
