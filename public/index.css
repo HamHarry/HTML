@@ -86,7 +86,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 25px 20px;
+    margin: 20px 20px;
     background-color: beige;
     border: 3px solid #57bdf6;
     border-radius: 5%;
@@ -113,7 +113,7 @@ body {
     font-family: "Rowdies", sans-serif;
     list-style: none;
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     color: cadetblue;
 }
 .prices {
@@ -132,7 +132,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Rowdies", sans-serif;
-    font-size: 19px;
+    font-size: 15px;
     color: cadetblue;
     font-weight: 600;
     margin-top: 20px;
@@ -195,7 +195,7 @@ body {
 }
 /* =====================grid-pay========================== */
 .grid-pay {
-    margin-top: 200px;
+    margin-top: 400px;
     display: flex;
     flex-direction: column;
     background-color: beige;
@@ -229,7 +229,7 @@ body {
 }
 /* =====================footer========================== */
 footer {
-    position:absolute ;
+    position: absolute;
     bottom: 0;
     width: 100%;
     font-weight: 600;
